@@ -1,0 +1,45 @@
+#pageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 4px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
+
+#peopleEntered {
+    align-content: center;
+    justify-content: center;
+}
+
+#count-el {
+    justify-content: center;
+    align-content: center;
+}
